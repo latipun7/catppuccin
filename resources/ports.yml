@@ -22,6 +22,9 @@ collaborators:
   - &AnubisNekhet
     name: Anubis
     url: https://github.com/AnubisNekhet
+  - &AwA-VR
+    name: AwA
+    url: https://github.com/AwA-VR
   - &asrvd
     url: https://github.com/asrvd
   - &aszecsei
@@ -183,6 +186,8 @@ collaborators:
     url: https://github.com/mrdoge515
   - &mrtnvgr
     url: https://github.com/mrtnvgr
+  - &myumichi
+    url: https://github.com/myumichi
   - &NamesCode
     url: https://github.com/NamesCode
   - &ndsboy
@@ -250,9 +255,6 @@ collaborators:
     url: https://github.com/Sekki21956
   - &schoblaska
     url: https://github.com/schoblaska
-  - &ShyyLexi
-    name: Lexi
-    url: https://github.com/ShyyLexi
   - &sgoudham
     name: Hammy
     url: https://github.com/sgoudham
@@ -338,6 +340,14 @@ ports:
     platform: [macos]
     current-maintainers: []
     past-maintainers: [*nekowinston]
+  aliucord:
+    name: Aliucord
+    categories: [social_networking]
+    platform: [android]
+    color: blue
+    icon: discord
+    current-maintainers: [*isabelincorp, *myumichi]
+    past-maintainers: [*skinatro]
   amfora:
     name: Amfora
     categories: [entertainment]
@@ -582,6 +592,7 @@ ports:
     categories: [application_launcher, system]
     platform: [linux]
     color: sapphire
+    icon: suckless
     current-maintainers: []
     past-maintainers: [*ohxxm]
   dopamine:
@@ -658,7 +669,7 @@ ports:
     platform: [linux, macos, windows]
     color: peach
     icon: firefoxbrowser
-    current-maintainers: [*isabelincorp, *ShyyLexi]
+    current-maintainers: [*isabelincorp, *AwA-VR]
   fish:
     name: fish shell
     categories: [cli]
@@ -2114,13 +2125,6 @@ ports:
     current-maintainers: [*sakkke]
 
 archived:
-  aliucord:
-    name: Aliucord
-    reason: "Maintainer thought the upstream project was unmaintained, this port could be revived again."
-    categories: [social_networking]
-    platform: [android]
-    color: blue
-    icon: discord
   gtk:
     name: GTK
     reason: "Incredibly difficult to theme and maintain, this port could be revived if better theming methods arise. (highly unlikely)"
@@ -2285,23 +2289,26 @@ categories:
 
 showcases:
   - title: flotes.app
-    description: A free note-taking app enhanced with flashcard features
+    description: A free note-taking app enhanced with flashcard features.
     link: https://flotes.app/
   - title: AnuPpuccin
-    description: Highly customizable theme for [Obsidian](https://obsidian.md)
+    description: Highly customizable theme for [Obsidian](https://obsidian.md).
     link: https://github.com/AnubisNekhet/AnuPpuccin
   - title: faerber
-    description: Website for applying custom color schemes to any wallpaper
+    description: Website for applying custom color schemes to any wallpaper.
     link: https://farbenfroh.io/faerber
   - title: Simple MP
-    description: A simple music player based on Material You design
+    description: A simple music player based on Material You design.
     link: https://github.com/lighttigerXIV/SimpleMP-Compose
   - title: Comfy
     description: A theme for [Spicetify](https://github.com/spicetify/spicetify-cli) with a basic catppuccin color scheme!
     link: https://github.com/Comfy-Themes/Spicetify
   - title: Catppuccin Noctis
-    description: An alternative to the official VSCode theme, with [Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) syntax highlighting
+    description: An alternative to the official VSCode theme, with [Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) syntax highlighting.
     link: https://marketplace.visualstudio.com/items?itemName=AlexDauenhauer.catppuccin-noctis
+  - title: Catppuccin Noctis Icons
+    description: A companion icons theme for Catppuccin Noctis color theme. Forked from [Symbols Icon Theme](https://github.com/miguelsolorio/vscode-symbols).
+    link: https://marketplace.visualstudio.com/items?itemName=AlexDauenhauer.catppuccin-noctis-icons
   - title: Mind Elixir
     description: A framework agnostic JavaScript mind map core.
     link: https://github.com/ssshooter/mind-elixir-core
