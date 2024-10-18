@@ -61,8 +61,8 @@ collaborators:
     url: https://github.com/CallMeEchoCodes
   - &catb00mer
     url: https://github.com/catb00mer
-  - &cattokomo
-    url: https://github.com/cattokomo
+  - &mbekkomo
+    url: https://github.com/mbekkomo
   - &Cristhyano
     url: https://github.com/Cristhyano
   - &coldenate
@@ -213,6 +213,9 @@ collaborators:
   - &nekowinston
     name: winston
     url: https://github.com/nekowinston
+  - &neongamerbot
+    name: Neon
+    url: https://github.com/NeonGamerBot-QK
   - &NickSquiggles
     name: Nick
     url: https://github.com/NickSquiggles
@@ -250,8 +253,6 @@ collaborators:
   - &quentinguidee
     name: Quentin
     url: https://github.com/quentinguidee
-  - &r58Playz
-    url: https://github.com/r58Playz
   - &rayhanadev
     url: https://github.com/rayhanadev
   - &remiposo
@@ -520,13 +521,6 @@ ports:
     color: yellow
     current-maintainers: []
     past-maintainers: [*elkrien]
-  chrome-devtools:
-    name: Google Chrome DevTools
-    categories: [browser_extension]
-    platform: [linux, macos, windows]
-    icon: googlechrome
-    color: yellow
-    current-maintainers: [*r58Playz]
   cider:
     name: Cider
     categories: [music]
@@ -540,7 +534,7 @@ ports:
     color: red
     icon: codemirror
     platform: agnostic
-    current-maintainers: [*uncenter]
+    current-maintainers: []
     past-maintainers: [*griimick]
   conky:
     name: Conky
@@ -620,7 +614,7 @@ ports:
     categories: [productivity]
     platform: [android]
     color: text
-    current-maintainers: [*cattokomo]
+    current-maintainers: [*mbekkomo]
   dmenu:
     name: dmenu
     categories: [application_launcher, system]
@@ -1194,6 +1188,13 @@ ports:
     platform: [linux, macos]
     color: green
     current-maintainers: [*nullishamy]
+  libreoffice:
+      name: Libre Office
+      categories: [document_viewer]
+      platform: [linux, macos, windows]
+      color: green
+      icon: libreoffice
+      current-maintainers: [*neongamerbot]
   limine:
     name: Limine
     categories: [boot_loader, system]
@@ -1220,7 +1221,7 @@ ports:
     platform: agnostic
     color: blue
     icon: lua
-    current-maintainers: [*cattokomo]
+    current-maintainers: [*mbekkomo]
   lxqt:
     name: LXQt
     categories: [desktop_environment, system]
@@ -1421,8 +1422,8 @@ ports:
     platform: [linux, macos, windows]
     icon: neovim
     color: green
-    current-maintainers: [*mrtnvgr, *vollowx]
-    past-maintainers: [*pocco81, *nullchilly]
+    current-maintainers: [*vollowx]
+    past-maintainers: [*pocco81, *nullchilly, *mrtnvgr]
   obs:
     name: OBS Studio
     categories: [productivity, photo_and_video]
@@ -2253,6 +2254,13 @@ ports:
     current-maintainers: [*sakkke]
 
 archived:
+  chrome-devtools:
+    name: Google Chrome DevTools
+    reason: "Chrome has removed the experimental API required for the Catppuccin theme to be loaded."
+    categories: [browser_extension]
+    platform: [linux, macos, windows]
+    icon: googlechrome
+    color: yellow
   gtk:
     name: GTK
     reason: "Incredibly difficult to theme and maintain, this port could be revived if better theming methods arise. (highly unlikely)"

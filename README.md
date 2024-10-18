@@ -1173,7 +1173,6 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 
 - [Dark Reader](https://github.com/catppuccin/dark-reader)
 - [GitHub File Explorer Icons](https://github.com/catppuccin/github-file-explorer-icons)
-- [Google Chrome DevTools](https://github.com/catppuccin/chrome-devtools)
 - [nightTab](https://github.com/catppuccin/nighttab)
 - [Noir](https://github.com/catppuccin/noir)
 - [Shinigami Eyes](https://github.com/catppuccin/userstyles/tree/main/styles/shinigami-eyes)
@@ -1246,6 +1245,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 <details open>
 <summary>📖 Productivity</summary>
 
+- [AlternativeTo](https://github.com/catppuccin/userstyles/tree/main/styles/alternativeto)
 - [Amplenote](https://github.com/catppuccin/userstyles/tree/main/styles/amplenote)
 - [Aseprite](https://github.com/catppuccin/aseprite)
 - [Bento](https://github.com/catppuccin/bento)
@@ -1271,6 +1271,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Proton](https://github.com/catppuccin/userstyles/tree/main/styles/proton)
 - [qBittorrent](https://github.com/catppuccin/qbittorrent)
 - [Raindrop](https://github.com/catppuccin/userstyles/tree/main/styles/raindrop)
+- [Rentry.co](https://github.com/catppuccin/userstyles/tree/main/styles/rentry.co)
 - [Scrivener](https://github.com/catppuccin/scrivener)
 - [SpeedCrunch](https://github.com/catppuccin/speedcrunch)
 - [Squirrel (Rime for macOS)](https://github.com/catppuccin/squirrel)
@@ -1332,6 +1333,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 
 - [calibre](https://github.com/catppuccin/calibre)
 - [Foliate](https://github.com/catppuccin/foliate)
+- [Libre Office](https://github.com/catppuccin/libreoffice)
 - [sent](https://github.com/catppuccin/sent)
 - [Sioyek](https://github.com/catppuccin/sioyek)
 - [SumatraPDF](https://github.com/catppuccin/sumatra-pdf)
